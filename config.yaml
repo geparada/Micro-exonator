@@ -1,0 +1,14 @@
+
+input_dir : "../data"
+samples : ['../data/brainaa.fastq.gz', '../data/brainab.fastq.gz', '../data/brainac.fastq.gz']
+
+Genome_fasta : data/mm10.fa
+Gene_anontation_bed12 : data/gencode.vM11.annotation.bed12
+Gene_anontation_fasta : data/gencode.vM11.transcripts.fa
+
+GT_AG_U2_5 : data/mm10_GT_AG_U2_5.good.matrix
+GT_AG_U2_3 : data/mm10_GT_AG_U2_3.good.matrix
+vertebrates_phylop : data/mm10.60way.phyloP60way.bw
+close_phylop : data/mm10.60way.phyloP60wayPlacental.bw
+
+ME_len : 30
